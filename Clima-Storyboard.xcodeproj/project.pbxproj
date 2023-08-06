@@ -14,6 +14,7 @@
 		442F09232A7C1E8F00346EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442F09222A7C1E8F00346EFD /* Assets.xcassets */; };
 		442F09262A7C1E8F00346EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442F09242A7C1E8F00346EFD /* LaunchScreen.storyboard */; };
 		44EAC6F72A7E7C4B000B3322 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EAC6F62A7E7C4B000B3322 /* WeatherManager.swift */; };
+		44F317E32A7FC88500F294FB /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F317E22A7FC88500F294FB /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		442F09252A7C1E8F00346EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		442F09272A7C1E8F00346EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44EAC6F62A7E7C4B000B3322 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		44F317E22A7FC88500F294FB /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				44EAC6F62A7E7C4B000B3322 /* WeatherManager.swift */,
+				44F317E22A7FC88500F294FB /* WeatherData.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				442F091E2A7C1E8C00346EFD /* WeatherViewController.swift in Sources */,
+				44F317E32A7FC88500F294FB /* WeatherData.swift in Sources */,
 				442F091A2A7C1E8C00346EFD /* AppDelegate.swift in Sources */,
 				44EAC6F72A7E7C4B000B3322 /* WeatherManager.swift in Sources */,
 				442F091C2A7C1E8C00346EFD /* SceneDelegate.swift in Sources */,
